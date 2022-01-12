@@ -7,5 +7,8 @@ import { ChangeDetectionStrategy, Component , ChangeDetectorRef} from '@angular/
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class Home1Component {
+  constructor(rf: ChangeDetectorRef){
+
+  }
   title = 'test1';
 }
